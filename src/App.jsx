@@ -4,10 +4,10 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Admissions from "./pages/Admissions"
 import Courses from "./pages/courses"
-import Comunication from "./pages/Comunication"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
 import ErrorPage from "./pages/errorPage"
+import Contact from "./pages/contact"
 
 const routes = [
   {
@@ -31,8 +31,8 @@ const routes = [
     "layout": "layout",
   },
   {
-    "path": "/comunication",
-    "element": <Comunication></Comunication>,
+    "path": "/contact",
+    "element": <Contact></Contact>,
     "layout": "layout",
   },
   {
