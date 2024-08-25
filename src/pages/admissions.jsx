@@ -5,7 +5,7 @@ const Admissions = () => {
     <>
       <div className="">
         <div className="relative">
-          <img src={heroImage} alt="" className='w-full h-52' />
+          <img src={heroImage} alt="" className='w-full h-52 bg-cover' />
         </div>
       </div>
     </>
